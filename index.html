@@ -9,6 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Bakery</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./assets/js/script.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -128,41 +131,41 @@
                 <div class="campo">
                     <label for="doces">Doces:</label>
                     <select name="doces" id="doces">
-                        <option value=""></option>
-                        <option value="">Bomba de chocolate</option>
-                        <option value="">Sonho de chocolate</option>
-                        <option value="">Bolo de prestígio</option>
-                        <option value="">Torta de morango</option>
+                        <option value=1></option id = "lixo">
+                        <option value=5>Bomba de chocolate</option>
+                        <option value=3>Sonho de chocolate</option>
+                        <option value=4>Bolo de prestígio</option>
+                        <option value=5>Torta de morango</option>
                     </select>
                 </div>
 
                 <div class="campo">
                     <label for="salgados">Salgados:</label>
                     <select name="salgados" id="salgados">
-                        <option value=""></option>
-                        <option value="">Pão francês</option>
-                        <option value="">Torta de frango</option>
-                        <option value="">Croissant</option>
-                        <option value="">Pão de frios</option>
+                        <option value=1></option>
+                        <option value=2>Pão francês</option>
+                        <option value=3>Torta de frango</option>
+                        <option value=4>Croissant</option>
+                        <option value=5>Pão de frios</option>
                     </select>
                 </div>
 
                 <div class="campo">
                     <label for="bebidas">Bebidas:</label>
                     <select name="bebidas" id="bebidas">
-                        <option value=""></option>
-                        <option value="">Chá</option>
-                        <option value="">Café</option>
-                        <option value="">Suco de laranja</option>
-                        <option value="">Leite</option>
+                        <option value=1></option>
+                        <option value=2>Chá</option>
+                        <option value=3>Café</option>
+                        <option value=4>Suco de laranja</option>
+                        <option value=5>Leite</option>
                     </select>
                 </div>
                 
                 <div class="campo">
-                    <div class="conf"></div>
+                    <div class="conf"><label for="valor">O valor será exibido na tela ao clicar no botão</label> </div>
                             
-                    <span class="button3">
-                        <p>Confirmar pedido</p>
+                    <span class="button3" id = "botao">
+                        <button>Confirmar pedido</button>
                     </span>
                 </div>
             </form>
